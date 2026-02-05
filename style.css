@@ -2,6 +2,26 @@
 	text-align: center;
 }
 
+html {
+	background: grey;
+	font-size: 16pt;
+}
+
+h1 {
+	font-family: "IBM Plex Mono", monospace;
+	font-weight: 150;
+	font-style: italic;
+	font-size: 1.5rem;
+}
+
+a {
+	font-family: "IBM Plex Mono", monospace;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 0.7rem;
+	color: lime;
+}
+
 img {
 	width: 200px;
 	height: 200px;
@@ -11,6 +31,7 @@ ul {
 	list-style-type: none;
 }
 
-a {
-	font-style: italic;
+
+footer {
+	font-size: 0.75rem
 }
