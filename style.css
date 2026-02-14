@@ -1,37 +1,67 @@
-* {
+/* Headlines:      #DDE2EA */
+/* Body Text:      #8B93A6 */
+/* Links (idle):   #5A7CFF */
+/* Links (hover):  #8FBFFF */
+/* Meta / Time:    #6F7688 */
+/* Error / Peak:   #B11226 */
+
+
+html {
+	background: #0E121A;
+	font-size: 9pt;
+	color: #DDE2EA;
+}
+
+.main-block {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10%;
 	text-align: center;
 }
 
-html {
-	background: grey;
-	font-size: 16pt;
-}
 
 h1 {
-	font-family: "IBM Plex Mono", monospace;
-	font-weight: 150;
-	font-style: italic;
-	font-size: 1.5rem;
+	font-family: 'Iosevka Slab Web', monospace;
+	font-display: auto;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('woff2/iosevka-slab-thin.woff2') format('woff2'), url('ttf/iosevka-slab-thin.ttf') format('truetype');	
 }
 
 a {
-	font-family: "IBM Plex Mono", monospace;
-	font-weight: 100;
-	font-style: italic;
-	font-size: 0.7rem;
-	color: lime;
+	font-family: 'Iosevka Slab Web', monospace;
+	font-display: auto;
+	font-weight: 900;
+	text-decoration: none;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-slab-thin.woff2') format('woff2'), url('ttf/iosevka-slab-thin.ttf') format('truetype');
+	color: #DDE2EA;
 }
 
-img {
-	width: 200px;
-	height: 200px;
+a:hover {
+	color: #8B93A6;
 }
 
 ul {
+	padding: 0;
 	list-style-type: none;
+}
+
+.img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+
 }
 
 
 footer {
-	font-size: 0.75rem
+	position: fixed;
+	bottom: 0px;
+	left: 10px;		  
+	font-family: "Roboto Flex", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 0.9rem;
+	color: white;
 }
